@@ -1,0 +1,13 @@
+ ! NOAA/PMEL TMAP
+ ! PyFerret v7.5 (optimized)
+ ! Linux 4.15.0-1071-azure - 03/31/20
+ ! 19-Jun-20 17:43     
+
+set mode verify
+use tsi_0
+sh da
+use tsi_01
+ls
+sh da
+pl o_motmax[l=1:98]
+pl o_motmax[i=1:98,l=1:98]
